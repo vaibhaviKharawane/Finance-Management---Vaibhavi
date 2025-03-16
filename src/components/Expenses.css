@@ -1,0 +1,158 @@
+/* src/components/Expenses.css */
+
+/* Overall container */
+.expenses-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    background: linear-gradient(135deg, #e0f7fa, #cce0e5); /* Soft gradient background */
+    min-height: 100vh;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Filter controls */
+.filter-controls {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-controls select,
+.filter-controls button {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.filter-controls select:focus,
+.filter-controls button:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight on focus */
+}
+
+.add-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+/* Add Expense Form */
+.add-expense-form {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-expense-form h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.add-expense-form input,
+.add-expense-form select,
+.add-expense-form button {
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: calc(100% - 2rem); /* Adjust width for padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.add-expense-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-expense-form button:hover {
+    background-color: #218838;
+}
+
+.add-expense-form button:last-child {
+    background-color: #dc3545;
+}
+
+.add-expense-form button:last-child:hover {
+    background-color: #c82333;
+}
+
+/* Expense List */
+.expense-list-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-list-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expense-table th,
+.expense-table td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+}
+
+.expense-table th {
+    background-color: #f2f2f2;
+}
+
+.expense-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.edit-button,
+.delete-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+    transition: transform 0.2s ease;
+}
+
+.edit-button {
+    color: #ffc107;
+}
+
+.delete-button {
+    color: #dc3545;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* No Expenses Message */
+.no-expenses {
+    text-align: center;
+    padding: 2rem;
+    font-style: italic;
+    color: #777;
+}

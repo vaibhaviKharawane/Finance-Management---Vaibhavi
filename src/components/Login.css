@@ -1,0 +1,92 @@
+/* src/components/Login.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+    overflow: hidden;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1561414927-6d86591d0c4f') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .login-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  .login-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2C5364;
+    animation: slideIn 1.5s ease;
+  }
+  
+  .input-field {
+    border-radius: 25px;
+    padding: 15px;
+    transition: all 0.3s;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .input-field:focus {
+    border-color: #2C5364;
+    box-shadow: 0 0 10px rgba(44, 83, 100, 0.3);
+  }
+  
+  .btn-success {
+    background: #28a745;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s;
+  }
+  
+  .btn-success:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
+  }
+  
+  .btn-outline-primary {
+    border-radius: 25px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    transition: all 0.3s;
+  }
+  
+  .btn-outline-primary:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
