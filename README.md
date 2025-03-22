@@ -1,3 +1,4 @@
+![Screenshot (62)](https://github.com/user-attachments/assets/7aa0a3f5-54e0-4645-a694-5cd1d11c8492)
 Personal Finanace Management:
 The Expense management project is designed to create a platform where users can create, view, edit, and delete expense with real-time updates. The platform ensures that any changes made to any expense are instantly reflected across all reports. This project will provide you with hands-on experience in implementing user authentication, managing documents, and ensuring real-time collaboration using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
@@ -32,7 +33,7 @@ Here is pic
 ![Screenshot (46)](https://github.com/user-attachments/assets/aaf4c05e-b391-4f68-8334-f0abb1a02f84)
 ![Screenshot (47)](https://github.com/user-attachments/assets/615b9ee0-789e-48f4-8abf-2b690e7ed444)
 ![Screenshot (48)](https://github.com/user-attachments/assets/1beb1e30-3e1b-42d2-b01b-ee0f4d440e27)
-
+![Screenshot (62)](https://github.com/user-attachments/assets/6611cc72-4ffa-439a-90c5-5531aae7db4a)
 ![Screenshot (50)](https://github.com/user-attachments/assets/44c9dfaa-72db-43a6-8fec-3faed99a05dc)
 
 
