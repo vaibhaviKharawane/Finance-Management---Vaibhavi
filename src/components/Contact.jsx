@@ -10,7 +10,7 @@ const Contact = () => {
 
                 <div className="contact-links">
                     <a href="https://www.linkedin.com/in/vaibhavi-kharawane-469ba6259" target="_blank" rel="noopener noreferrer" className="contact-link">
-                        <img src="https://cdn-icons-png.flaticon.com/512/528/528176.png" alt="LinkedIn" className="contact-icon" />
+                        <img src="https://logospng.org/download/linkedin/logo-linkedin-icon-4096.png" alt="LinkedIn" className="contact-icon" />
                         <span>LinkedIn</span>
                     </a>
                     <a href="https://github.com/VaibhaviKharawane" target="_blank" rel="noopener noreferrer" className="contact-link">
@@ -28,10 +28,6 @@ const Contact = () => {
                     <p>We are dedicated to providing secure and reliable financial management tools.</p>
                     <div className="trust-links">
                         <a href="https://www.linkedin.com/in/vaibhavi-kharawane-469ba6259" target="_blank" rel="noopener noreferrer">
-                            <img src="https://cdn-icons-png.flaticon.com/512/528/528176.png" alt="LinkedIn" className="trust-icon" />
-                        </a>
-                        <a href="https://github.com/VaibhaviKharawane" target="_blank" rel="noopener noreferrer">
-                            <img src="https://cdn-icons-png.flaticicon.com/512/25/25231.png" alt="GitHub" className="trust-icon" />
                         </a>
                     </div>
                 </div>
