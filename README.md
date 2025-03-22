@@ -32,7 +32,7 @@ Here is pic
 ![Screenshot (46)](https://github.com/user-attachments/assets/aaf4c05e-b391-4f68-8334-f0abb1a02f84)
 ![Screenshot (47)](https://github.com/user-attachments/assets/615b9ee0-789e-48f4-8abf-2b690e7ed444)
 ![Screenshot (48)](https://github.com/user-attachments/assets/1beb1e30-3e1b-42d2-b01b-ee0f4d440e27)
-![Screenshot (49)](https://github.com/user-attachments/assets/3dca481c-ece1-4aa7-bcdf-6659c14a1ccf)
+
 ![Screenshot (50)](https://github.com/user-attachments/assets/44c9dfaa-72db-43a6-8fec-3faed99a05dc)
 
 
